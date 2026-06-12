@@ -1,0 +1,91 @@
+# ==========================================
+# VIDEO FILES
+# ==========================================
+Videos/*.avi
+Videos/*.mp4
+
+# ==========================================
+# VISUAL STUDIO / RIDER
+# ==========================================
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# ==========================================
+# COMPILED OBJECT & LIBRARY FILES
+# ==========================================
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# ==========================================
+# ENGINE-GENERATED PROJECT FILES
+# ==========================================
+*.xcodeproj
+*.xcworkspace
+
+# ==========================================
+# UNREAL BUILD OUTPUT
+# ==========================================
+Binaries/*
+Plugins/*/Binaries/*
+Build/*
+# Whitelist PakBlacklist and icons inside Build
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# ==========================================
+# UNREAL INTERMEDIATE & CACHE
+# ==========================================
+Intermediate/*
+Plugins/*/Intermediate/*
+DerivedDataCache/*
+Saved/*
+
+# ==========================================
+# UNREAL ASSETS — MAP BUILD DATA
+# ==========================================
+*_BuiltData.uasset
+
+# ==========================================
+# SOURCE ART
+# ==========================================
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# ==========================================
+# CONTENT — LARGE ASSET PACKS (DO NOT TRACK)
+# ==========================================
+Content/MedievalDungeon/
+Content/Cave/
+Content/ParagonMinions/
+Content/SunTemple/
+
+
+# If you want to keep ONLY specific content subfolders, use exceptions:
+# !Content/
+# Content/*
+# !Content/Data/         # e.g. keep data tables
+# !Content/Levels/       # e.g. keep level files (if small)

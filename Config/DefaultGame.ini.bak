@@ -1,0 +1,7 @@
+
+[/Script/EngineSettings.GeneralProjectSettings]
+ProjectID=CAAC5A074A3B3C59774F59BE6D571C61
+
+[StartupActions]
+bAddPacks=True
+InsertPack=(PackSource="StarterContent.upack",PackName="StarterContent")

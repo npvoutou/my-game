@@ -1,0 +1,29 @@
+[/Script/EngineSettings.GameMapsSettings]
+GameDefaultMap=/Game/Maps/SunTemple.SunTemple
+EditorStartupMap=/Game/Maps/SunTemple.SunTemple
+GlobalDefaultGameMode=/Game/Bluprints/CritterGameMode_BP.CritterGameMode_BP_C
+
+[/Script/HardwareTargeting.HardwareTargetingSettings]
+TargetedHardwareClass=Desktop
+AppliedTargetedHardwareClass=Desktop
+DefaultGraphicsPerformance=Maximum
+AppliedDefaultGraphicsPerformance=Maximum
+
+[/Script/Engine.Engine]
++ActiveClassRedirects=(OldClassName="TP_BlankGameModeBase",NewClassName="FirstProjectTestGameModeBase")
++ActiveGameNameRedirects=(OldGameName="TP_Blank",NewGameName="/Script/MyGame")
++ActiveGameNameRedirects=(OldGameName="/Script/TP_Blank",NewGameName="/Script/MyGame")
++ActiveGameNameRedirects=(OldGameName="/Script/FirstProjectTest", NewGameName="/Script/MyGame")
+
+[/Script/WindowsTargetPlatform.WindowsTargetSettings]
+SpatializationPlugin=Built-in Spatialization
+ReverbPlugin=Built-in Reverb
+OcclusionPlugin=Built-in Occlusion
+AudioCallbackBufferFrameSize=4096
+AudioNumBuffersToEnqueue=1
+
+[/Script/ResonanceAudio.ResonanceAudioSettings]
+GlobalReverbPreset=/Game/Assets/Audio/ResonanceAudioSettings/ResonanceHallVerb.ResonanceHallVerb
+
+[URL]
+GameName=MyGame
