@@ -2,7 +2,7 @@
 
 This is the repository for a little Unreal Engine game I created during my transition into game development, tracking `Source/`, `Config/`, some `Content/` assets (large ones are excluded), and project files.
 
-The full gameplay video is available in [Youtube][https://youtu.be/wgV2nLxDLBU].
+The full gameplay video is available in [Youtube](https://youtu.be/wgV2nLxDLBU).
 
 ![lil-thumbnail-url]
 
